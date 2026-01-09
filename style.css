@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    margin-top: 28px;
+}
+.main-container{
+    width: 328px;
+    height: 550px;
+    background-color: hsl(0,0%,94%);
+    box-shadow: 0 4px 6px rgba(0,0,0,.2), 0 6px 8px rgba(0,0,0,.20);
+    border-radius: 4px;
+    overflow-y: scroll;
+}
+.input-container{
+        margin-left: 20px; 
+        margin-top: 35px;
+        width: 250px; 
+    height: 38px;
+        background-color: #fff;
+        border:none;
+        border-radius: 4px;
+
+}
+input[type="text"]{
+    width: 150px; 
+     height: 28px;
+     border:none;
+     margin-left: 8px;
+}
+input[type="text"]:focus{
+   outline: none;
+}
+.mybtn{
+    width:35px;
+    height:28px; 
+    background-color: #fff;
+    margin-left:42px;
+    background-color: transparent;
+    border: 2px solid black; 
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 4px;
+    /* position: fixed; */
+}
+.all-task{
+    margin-left: 20px; 
+    font-size: 24px; 
+}
+i{
+    margin-left: 20px; 
+}
+.task{
+    width: 260px;
+    height: 45px;
+    background-color: #457f9a;
+    color:#fff; 
+    box-shadow: 0 4px 6px rgba(0,0,0,.4), 0 4px 8px rgba(0,0,0,.18);
+    margin-bottom: 20px;
+    padding: 8px; 
+    border-radius: 4px;
+}
+span{
+    float:right;
+    font-size:20px;
+    transition: all .8s ease-in; 
+}
+span:hover{
+    color:#c0c0c0;
+}
+strong{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: lighter;
+}
+.myTask{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+::placeholder{
+      font-family: "Josefin Sans", sans-serif;
+}
+--webkit::-webkit-scrollbar{
+    background-color: hsl(0,0%,94%);
+}
+--webkit::-webkit-scrollbar-thumb{
+    background-color: hsl(0,0%,94%);
+}

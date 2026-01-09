@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <h2>To-do-list-App</h2>
+        <div class="add-container">
+            <div class="input-container">
+            <input type="text" id="task's" placeholder="Add Task...."/>
+            <button class="mybtn" id="btn">+</button>
+            </div>
+            <br> <br>
+            <label class="all-task">All Task</label>
+            <br>
+            <i>7 tasks for complete</i>
+        </div>
+   
+        <div class="myTask">
+            <div class="task task-1" onclick="document.getElementById('strong_1').style.textDecoration='line-through'  ">
+                <span id="closebtn" onclick="this.parentElement.style.display='none' ">&times;</span>
+                <strong id="strong_1">Read a book</strong>
+            </div>
+            <div class="task task-2" onclick="document.getElementById('strong_2').style.textDecoration='line-through'  ">
+                 <span id="closebtn" onclick="this.parentElement.style.display='none' ">&times;</span>
+                <strong id="strong_2">Go to Grocerry Store</strong>
+            </div>
+            <div class="task task-3" onclick="document.getElementById('strong_3').style.textDecoration='line-through' ">
+                <span id="closebtn" onclick="this.parentElement.style.display='none' ">&times;</span>
+                <strong id="strong_3">Cook some meal</strong>
+            </div>
+            <div class="task task-4" onclick="document.getElementById('strong_4').style.textDecoration='line-through' ">
+                 <span id="closebtn" onclick="this.parentElement.style.display='none' ">&times;</span>
+                <strong id="strong_4">Go to Gym</strong>
+            </div>
+            <div class="task task-5" onclick="document.getElementById('strong_5').style.textDecoration='line-through' ">
+                <span id="closebtn" onclick="this.parentElement.style.display='none' ">&times;</span>
+                <strong id="strong_5">Do your homework</strong>
+            </div>
+
+              <div id="myTaskContainer">
+                
+        </div>
+        </div>
+
+      
+
+             </div>
+         <script src="main.js"></script>
+</body>
+</html>
